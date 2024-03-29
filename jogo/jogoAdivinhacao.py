@@ -10,9 +10,9 @@ print("Você degitou", chute, sep=' ')
 
 chute = int(chute)
 
-acertou = chute == numero_secreto
-maior = chute > numero_secreto
-menor = chute < numero_secreto
+acertou = (chute == numero_secreto)
+maior = (chute > numero_secreto)
+menor = (chute < numero_secreto)
 
 
 if (acertou):
